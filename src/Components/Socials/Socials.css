@@ -1,0 +1,34 @@
+.my-socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 130px;
+    background-color: #111827;
+    
+}
+
+.my-socials h1 {
+    padding-bottom: 30px;
+}
+
+.my-socials p {
+    text-align: center;
+    padding-bottom: 30px;
+    color: #9CA3AF;
+    font-size: 14px;
+}
+
+.social-icons {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding-bottom: 40px;
+    color: #020617;
+}
+.my-icons:hover {
+    background-color:#EAB308;
+    transform: scale(1.1);
+    transition: 0.5s;
+    border-radius: 2px;
+}

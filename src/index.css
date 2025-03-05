@@ -1,0 +1,24 @@
+
+*{
+    margin: 0;
+    padding:0;
+    
+}
+
+body {
+    height: 100vh;
+    background: #020617;
+    color: white;
+    font-family: "Lexend Deca", serif;;
+
+}
+
+
+@media (max-width: 768px){
+    body {
+        overflow-x: hidden;
+    }
+
+}
+    
+    

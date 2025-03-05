@@ -1,0 +1,116 @@
+.my-contact {
+    padding: 20px 170px;
+    background-color: #111827;
+}
+
+.contact-header {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    
+}
+
+.contact-header h1 {
+    padding-bottom: 20px;
+}
+
+.contact-header p {
+    color: #9CA3AF;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.address-book {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 100px;
+}
+.contact-right {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    
+    
+}
+
+
+::placeholder {
+    color: #F3F4F6;
+}
+
+#my-name {
+    width: 240px;
+    height: 30px;
+    background-color: #1F2937;
+    border: #1F2937;
+    padding: 10px 10px;
+    font-size: 16px;
+    color: #F3F4F6;
+}
+
+#my-email {
+    width: 240px;
+    height: 30px;
+    background-color: #1F2937;
+    border: #1F2937;
+    padding: 10px 10px;
+    font-size: 16px;
+    color: #F3F4F6; 
+}
+
+#my-message {
+    width: 480px;
+    height: 166px;
+    background-color: #1F2937;
+    border: #1F2937;
+    padding: 20px 10px;
+    font-size: 20px;
+    color: #F3F4F6;
+}
+
+.submit {
+    width: 100px;
+    height: 45px;
+    background-color: #EAB308;
+    border: #EAB308;
+    border-radius: 3px;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 550;
+    cursor: pointer;
+}
+.submit:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.contact-left {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 40px;
+    padding-top: 55px;
+
+    
+    
+}
+
+@media (max-width: 768px) {
+    .my-contact{
+        display: flex;
+        flex-direction: column;
+    }
+    .address-book{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .contact-left {
+        padding-top: 2px;
+    }
+}
+
+
+
+
+
