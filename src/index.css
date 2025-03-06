@@ -25,7 +25,7 @@ body {
 
     
 
-    @media (min-width: 320px) and (max-width: 420px) {
+    @media (min-width: 249px) and (max-width: 420px) {
         body {
             overflow-x: hidden;
         }
