@@ -9,11 +9,12 @@ body {
     height: 100vh;
     background: #020617;
     color: white;
-    font-family: "Lexend Deca", serif;;
+    font-family: "Lexend Deca", serif;
+    overflow-x: hidden;
 
 }
 
-/*
+
 @media (max-width: 768px){
     body {
         overflow-x: hidden;
@@ -21,7 +22,7 @@ body {
 
 }
 
-*/
+
     
 
     @media (min-width: 320px) and (max-width: 420px) {
