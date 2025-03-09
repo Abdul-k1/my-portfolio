@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: space-between;
     overflow: hidden;
-    height: 600px;
+    height: 100%;
     padding: 20px 170px;
     background-color: #111827;
     
@@ -46,7 +46,7 @@
     font-size: 16px;
     margin-top: 22px;
     height: 43px;
-    width: 123px;
+    width: 30%;
     text-align: center;
     border-radius: 5px;
     line-height: 43px;
