@@ -15,9 +15,9 @@ const About = () => {
           About <span style={{ color: "#EAB308" }}>Me</span>
         </h1>
         <p>
-          I'm a Chemistry BSc graduate transitioning into Software Engineering,{" "}
-          <br></br>
-          with a strong interest in frontend development and Web 3.<br></br>
+          I'm a Chemistry BSc graduate transitioning into Software Engineering,
+          <br/>
+          with a strong interest in frontend development and Web 3.<br/>
           I'm enhancing my skills in Javascript, React.js, Next.js and
           blockchain.
           <br />
