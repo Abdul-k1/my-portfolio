@@ -177,7 +177,19 @@
   }
 
   .ex-grid-one h1 {
-    font-size: 10px;
+    font-size: 17px;
+    
+    
+  }
+
+  .ex-grid-two h1 {
+    font-size: 20px;
+    
+  }
+
+  .ex-grid-three h1 {
+    font-size: 17px;
+
   }
 }
 
