@@ -9,7 +9,7 @@ import { Link } from "react-scroll";
 const Portfolio = () => {
 
   const grid_OneClick = () => {
-    window.open("odis-portfolio.netlify.app", "_blank", "noopener,noreferrer");
+    window.open("https://odis-portfolio.netlify.app/", "_blank", "noopener,noreferrer");
   };
 
   const grid_TwoClick = () => {
