@@ -175,6 +175,10 @@
     gap: 20px;
     padding: 10px;
   }
+
+  .ex-grid-one h1 {
+    font-size: 10px;
+  }
 }
 
 
