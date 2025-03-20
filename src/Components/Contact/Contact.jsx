@@ -57,26 +57,9 @@ const Contact = () => {
         </p>
       </div>
       <div className="address-book">
-        <div className="contact-left">
-          <p>
-            <span style={{ color: "#EAB308" }}>Address_</span> Blk 631 FLAT 5
-            Abesan Estate Ipaja
-          </p>
-          <p>Lagos, Nigeria</p>
-          <p>
-            <span style={{ color: "#EAB308" }}>Phone_</span> +2348033661724
-          </p>
-          <p>
-            <span style={{ color: "#EAB308" }}>E mail_</span>{" "}
-            odiabdulkareem@gmail.com
-          </p>
-          <p>
-            <span style={{ color: "#EAB308" }}>Website_</span>{" "}
-            www.confirmodi.com
-          </p>
-        </div>
+        
 
-        <form onSubmit={onSubmit} className="contact-right" ref={inputRef}>
+        <form onSubmit={onSubmit} className="contact-details" ref={inputRef}>
           <input
             type="text"
             placeholder="Name"

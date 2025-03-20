@@ -12,7 +12,8 @@ const Hero = () => {
         <h1>I m Odi Abdulkareem</h1>
         <p>Chemistry BSc graduate transitioning into Software Engineering. <br />
         Passionate about frontend development and scalable solutions. <br />
-        Proficient in Html,CSS, Javascript, React.js, Bootstrap, Tailwind & Gits, <br />with a strong problem solving mindset.
+        Proficient in Html,CSS, Javascript, React.js, Bootstrap, Tailwind 
+        <br/>& Gits,with a strong problem solving mindset.
            </p>
         <Link to="contact" smooth={true} duration="500">
           <div className="hero-contact" onClick={() => setMenu("contact")}>

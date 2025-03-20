@@ -9,7 +9,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 const Socials = () => {
   return (
     <div className="my-socials">
-      <h1>My Socials.</h1>
+      <h1>My Socials</h1>
       <p>
         These are my social media handles, you can check me out <br />
         by clicking any of the links below.

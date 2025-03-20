@@ -15,17 +15,14 @@ const About = () => {
           About <span style={{ color: "#EAB308" }}>Me</span>
         </h1>
         <p>
-          I'm a Chemistry BSc graduate transitioning into Software Engineering,{" "}
-          <br></br>
-          with a strong interest in frontend development and Web 3.<br></br>
+          I'm a Chemistry BSc graduate transitioning into Software Engineering,
+          with a strong interest in frontend development and Web 3.
           I'm enhancing my skills in Javascript, React.js, Next.js and
           blockchain.
           <br />
           <br />I am Passionate about problem-solving,I enjoy building scalable
-          applications <br></br>
-          and collaborating on innovative projects. I'm currently open to
-          learning <br />
-          opportunities,internships, and mentorship in the tech industry.
+          applications and collaborating on innovative projects. I'm currently open to
+          learning opportunities,internships,and mentorship in the tech industry.
         </p>
         <Link to="contact" smooth={true} duration="500">
           <div className="about-contact" onClick={() => setMenu("contact")}>

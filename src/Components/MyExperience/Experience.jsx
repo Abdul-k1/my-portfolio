@@ -8,10 +8,9 @@ const Experience = () => {
         <h1>My <span style={{color: "#EAB308"}}>Experiences</span></h1>
         <p>
           My background in Chemistry has equipped me with a strong analytical mindset  
-          <br />
-          
-          and problem solving skills. My experience in research and documentation has  
-          <br />also made me proficient in learning new programming languages.
+          and problem solving skills. 
+          <br/>My experience in research and documentation has  
+          also made me proficient in learning new programming languages.
         </p>
       </div>
       <div className='experience-grid'>
@@ -33,9 +32,9 @@ const Experience = () => {
         <h3>January 2014 - 2016</h3>
             <h1><span style={{color: "#EAB308"}}>Ecommerce Manager</span></h1>
             <h2>Liquordeal Nig Ltd</h2>
-            <p>Responsible for managing the stores website,marketing,advertisements. 
-                Liased with sales and marketing to develop solutions to generate more traffic to the website and also increase
-                overall sales.
+            <p>Responsible for managing the stores website,marketing and advertisements.
+              Liased with sales and marketing to develop solutions to generate more traffic to the website to 
+              increase overall sales.
                 </p>
         </div>
 

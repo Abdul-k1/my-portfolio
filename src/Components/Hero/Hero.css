@@ -84,6 +84,13 @@
     .hero-left h1 {
         font-size: 30px;
         padding-bottom: 5px;
+        
+    }
+
+    .hero-left p {
+        text-align: justify;
+        text-justify: inter-word;
+        hyphens: auto;
     }
 
     .my-image  {
@@ -115,6 +122,12 @@
         width: 100%;
         height: auto;
     }
+
+    .hero-left p {
+        text-align: justify;
+        text-justify: inter-word;
+        hyphens: auto;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -139,6 +152,12 @@
     .my-image  {
         width: 100%;
         height: auto;
+    }
+
+    .hero-left p {
+        text-align: justify;
+        text-justify: inter-word;
+        hyphens: auto;
     }
 }
 

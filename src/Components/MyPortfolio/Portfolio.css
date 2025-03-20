@@ -1,56 +1,121 @@
 .my-portfolio {
-    height: 850px;
-    padding: 20px 170px;
-      
+  height: 100%;
+  padding: 20px 170px;
 }
- 
-.header  {
-    text-align: center;
-    padding-top: 50px;
+
+.header {
+  text-align: center;
+  padding-top: 50px;
 }
 
 .header h1 {
-    padding-bottom: 30px;
+  padding-bottom: 30px;
 }
-.header p{
-    padding-bottom: 60px;
-    color: #9CA3AF;
+.header p {
+  padding-bottom: 60px;
+  color: #9ca3af;
+  text-align: justify;
 }
 
 .portfolio-grid {
-    display: flex;
-    gap: 30px;
-    justify-items: start;   
+  display: flex;
+  gap: 30px;
+  justify-items: start;
 }
 
-.portfolio-grid img{
-    border-radius: 20px;
-    
+.portfolio-grid img {
+  border-radius: 20px;
 }
 
 .portfolio-grid img:hover {
-    transform: scale(1.1);
-    transition: 0.5s;
+  transform: scale(1.1);
+  transition: 0.5s;
 }
 
+@media (min-width: 320px) and (max-width: 470px) {
+  .my-portfolio {
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
 
+  .header p {
+    text-align: justify;
+    text-justify: inter-word;
+    hyphens: auto;
+  }
 
-
-
-@media (max-width: 768px) {
-    .my-portfolio{
-        height: 100%;
-    }
-    .portfolio-grid {
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-    }
-    .portfolio-grid-two{
-        display: flex;
-        flex-direction: column;
-
-    }
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px;
+    padding: 10px;
+  }
+  .portfolio_images {
+    width: 100%;
+    height: auto;
+  }
 }
 
+@media (min-width: 470px) and (max-width: 768px) {
+  .my-portfolio {
+    height: 100%;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header p {
+    text-align: justify;
+    text-justify: inter-word;
+    hyphens: auto;
+  }
+
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px;
+    padding: 10px;
+  }
+  .portfolio_images {
+    width: 100%;
+    height: auto;
+    
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .my-portfolio {
+    height: 100%;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header p {
+    text-align: justify;
+    text-justify: inter-word;
+    hyphens: auto;
+  }
+
+  .portfolio-grid {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 10px;
+  }
+  .portfolio_images {
+    min-width: 30%;
+    height: auto;
+  }
+}
+
+@media (min-width: 991px)  {
+
+    .portfolio_images {
+        min-width: 30%;
+        height: auto;
+      }
+}
 

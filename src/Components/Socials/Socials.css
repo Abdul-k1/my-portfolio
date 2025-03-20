@@ -32,3 +32,19 @@
     transition: 0.5s;
     border-radius: 2px;
 }
+
+@media (min-width: 320px) {
+    .my-socials {
+        padding: 20px 20px;
+        height: 100%;
+    }
+    .my-socials h1 {
+        text-align: center;
+    }
+
+    .my-socials p {
+        text-align: justify;
+        text-justify: inter-word;
+        hyphens: auto;
+    }
+}

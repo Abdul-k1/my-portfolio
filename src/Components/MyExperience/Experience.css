@@ -1,167 +1,237 @@
 .my-experience {
-    height: 650px;
-    padding: 20px 170px;
-    margin-left: 10px;
-    margin-right: 10px;
-    background-color: #191D28;
+  height: 100%;
+  padding: 20px 170px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #191d28;
 }
 
 .experience-header {
-    padding-top: 50px;
-    padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
 
 .experience-header h1 {
-    padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 .experience-header p {
-    color: #9CA3AF;
-    font-size: 15px;
-    line-height: 30px;
-
+  color: #9ca3af;
+  font-size: 15px;
+  word-spacing: 1.5px;
+  line-height: 30px;
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+  
 }
 
 .experience-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: space-between;
-    gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  justify-content: space-between;
+  gap: 20px;
+  padding: 10px;
+  
 }
 
-.ex-grid-one{
-    width: 300px;
-    height: 303px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 5px 20px;
-    background-color: #020617;
-    border-radius: 10px;
-
+.ex-grid-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5px 20px;
+  background-color: #020617;
+  border-radius: 10px;
 }
-
 
 .ex-grid-one h3 {
-    color: #D1D5DB;
-    font-size: 15px;
-    font-weight: normal;
-    padding-bottom: 20px;
+  color: #d1d5db;
+  font-size: 15px;
+  font-weight: 300;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  
+  
 }
 
 .ex-grid-one h1 {
-    font-size: 26px;
-    padding-bottom: 10px;
+  font-size: 26px;
+  padding-bottom: 5px;
+  
 }
 
 .ex-grid-one h2 {
-    font-size: 16px;
-    font-weight: 300;
-    padding-bottom: 15px;
+  font-size: 16px;
+  font-weight: 300;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  
 }
 .ex-grid-one p {
-    color: #6B7280;
-    font-size: 16px;
-    font-weight: 300;
-    
+  color: #6b7280;
+  font-size: 16px;
+  font-weight: 300;
+  padding-bottom: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
 }
 
-.ex-grid-two{
-    width: 300px;
-    height: 303px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 5px 20px;
-    background-color: #020617;
-    border-radius: 10px;
-
+.ex-grid-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5px 20px;
+  background-color: #020617;
+  border-radius: 10px;
 }
 
 .ex-grid-two h3 {
-    color: #D1D5DB;
-    font-size: 15px;
-    font-weight: normal;
-    padding-bottom: 20px;
+  color: #d1d5db;
+  font-size: 15px;
+  font-weight: 300;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 .ex-grid-two h1 {
-    font-size: 26px;
-    padding-bottom: 10px;
+  font-size: 26px;
+  padding-bottom: 10px;
 }
 
 .ex-grid-two h2 {
-    font-size: 16px;
-    font-weight: 300;
-    padding-bottom: 15px;
+  font-size: 16px;
+  font-weight: 300;
+  padding-top: 20px;
+  padding-bottom: 15px;
 }
 .ex-grid-two p {
-    color: #6B7280;
-    font-size: 16px;
-    font-weight: 300;
-    
+  color: #6b7280;
+  font-size: 16px;
+  font-weight: 300;
+  padding-bottom: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
 }
 
-.ex-grid-three{
-    width: 300px;
-    height: 303px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 5px 20px;
-    background-color: #020617;
-    border-radius: 10px;
-
-    
-
+.ex-grid-three {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5px 20px;
+  background-color: #020617;
+  border-radius: 10px;
 }
 
 .ex-grid-three h3 {
-    color: #D1D5DB;
-    font-size: 15px;
-    font-weight: normal;
-    padding-bottom: 20px;
+  color: #d1d5db;
+  font-size: 15px;
+  font-weight: 300;
+  padding-bottom: 20px;
 }
 
 .ex-grid-three h1 {
-    font-size: 26px;
-    padding-bottom: 10px;
+  font-size: 26px;
+  padding-bottom: 10px;
 }
 
 .ex-grid-three h2 {
-    font-size: 16px;
-    font-weight: 300;
-    padding-bottom: 15px;
+  font-size: 16px;
+  font-weight: 300;
+  padding-bottom: 15px;
 }
 .ex-grid-three p {
-    color: #6B7280;
-    font-size: 16px;
-    font-weight: 300;
-    
+  color: #6b7280;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+  padding-bottom: 20px;
 }
 
-@media (max-width: 768px) {
-    .my-experience {
-        height: 100%;
-        
-    }
-    .experience-header{
-        padding-bottom: 30px;
-    }
-    .experience-grid{
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-        
-    }
-    .ex-grid-one{
-        text-align: center;
-    }
-    .ex-grid-two{
-        text-align: center;
-    }
-    .ex-grid-three{
-        text-align: center;
-    }
+
+
+@media (min-width: 320px) and (max-width: 471px) {
+  .my-experience {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+    height: 100%;
+  }
+
+  .experience-header h1 {
+    font-size: 30px;
+  }
+  .experience-header p {
+    text-align: justify;
+    
+  }
+
+  .experience-grid {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px;
+    padding: 10px;
+  }
 }
+
+
+
+@media (min-width: 471px) and (max-width: 768px) {
+
+  .my-experience {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+    height: 100%;
+  }
+
+  .experience-header h1 {
+    font-size: 30px;
+  }
+  .experience-header p {
+    text-align: justify;
+    
+  }
+
+  .experience-grid {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px;
+    padding: 10px;
+  }
+  
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .my-experience {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+    height: 100%;
+  }
+
+  .experience-header h1 {
+    font-size: 30px;
+  }
+  .experience-header p {
+    text-align: justify;
+    
+  }
+
+  .experience-grid {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px;
+    padding: 10px;
+  }
+
+}
+
+
+
+
 

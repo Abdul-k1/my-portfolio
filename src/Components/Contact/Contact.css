@@ -1,6 +1,7 @@
 .my-contact {
     padding: 20px 170px;
     background-color: #111827;
+    
 }
 
 .contact-header {
@@ -21,14 +22,15 @@
 }
 
 .address-book {
-    display: grid;
-    grid-template-columns: repeat(2, 2fr);
-    gap: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
-.contact-right {
+.contact-details {
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: right;
     gap: 20px;
     
     
@@ -59,6 +61,8 @@
     color: #F3F4F6; 
 }
 
+
+
 #my-message {
     width: 480px;
     height: 166px;
@@ -85,28 +89,35 @@
     transition: 0.5s;
 }
 
-.contact-left {
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    gap: 40px;
-    padding-top: 55px;
 
-    
-    
-}
+@media (min-width: 320px) and (max-width: 550px) {
 
-@media (max-width: 768px) {
-    .my-contact{
+    .my-contact {
+        padding: 20px 20px;
+        height: 100%;
         display: flex;
         flex-direction: column;
+
     }
-    .address-book{
-        display: flex;
-        flex-direction: column-reverse;
+
+    .contact-header h1{
+        text-align: center;
+    
     }
-    .contact-left {
-        padding-top: 2px;
+    .contact-header p {
+    text-align: justify;
+    text-justify: inter-word;
+    hyphens: auto;
+    }
+
+   .contact-details {
+    padding-right: 20px;
+   }
+
+    #my-message {
+        width: 100%;
+        height: auto;
+    
     }
 }
 
