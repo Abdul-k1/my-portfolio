@@ -1,6 +1,6 @@
 import React from "react";
 import "./Portfolio.css";
-import grid_1 from "../../assets/grid_1.jpg";
+import grid_1 from "../../assets/grid_1.svg";
 import grid_2 from "../../assets/grid_2.svg";
 import grid_3 from "../../assets/grid_3.svg";
 import { Link } from "react-scroll";
@@ -9,7 +9,7 @@ import { Link } from "react-scroll";
 const Portfolio = () => {
 
   const grid_OneClick = () => {
-    window.open("https://odi-todo-app.netlify.app/", "_blank", "noopener,noreferrer");
+    window.open("odis-portfolio.netlify.app", "_blank", "noopener,noreferrer");
   };
 
   const grid_TwoClick = () => {
